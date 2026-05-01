@@ -146,7 +146,7 @@ axes[1, 1].set_title('Reception for candy types')
 plt.tight_layout()
 plt.show()
 ```
-
+![graphs](graphs_candy2017.png)
 ## Дальнейшие действия
 
 Показания для конфет можно и дальше разбить на подвыборки по возврасту, месту проживания и полу респондентов. 
