@@ -45,7 +45,7 @@ df["Q2: GENDER"] = df["Q2: GENDER"].fillna("I'd rather not say")
 df["Q3: AGE"] = pd.to_numeric(df["Q3: AGE"], errors='coerce')
 df = df[~df["Q3: AGE"].isna() & (df["Q3: AGE"] <= 130) & (df["Q3: AGE"] >= 0)]
 ```
-Удаляем столбцы, в которых ббольше половины значений отсутствуют:
+Удаляем столбцы, в которых больше половины значений отсутствуют:
 ```
 df_not_empty_cols = []
 for col in df_columns:
